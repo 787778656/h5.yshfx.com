@@ -1,0 +1,17 @@
+.mynotice{width: 100%;background-color: #fff;border-top: 1px solid #dedfe0;}
+.mynotice_list{padding: 0.5rem;border-bottom: 1px solid #dedfe0;height: 2rem;display: block;}
+.mynotice_icon{width: 1.4rem;height: 1rem;float: left;margin-right: 0.5rem;margin-top: 0.5rem;}
+.mynotice_icon2{width: 1.4rem;height: 1.4rem;float: left;margin-right: 0.5rem;margin-top: 0.3rem;}
+.mynotice_text{margin-top: 0.2rem;}
+.mynotice_content{width: 88%;float: left;position: relative;text-align: left;}
+.mynotice_time{position: absolute;right: 0px;top: 0px;color: #999;}
+.mynotice_down{padding: 0.5rem;}
+
+/* 公告详情 */
+.ticedetail{padding: 0.5rem;}
+.ticedetail_box{background-color: #fff;text-align: left;}
+.ticedetail_top{padding: 0.5rem;border-bottom: 1px solid #dedfe0;}
+.ticedetail_title{font-size: 0.8rem;}
+.ticedetail_time{font-size: 0.65rem;color: #999;margin-top: 0.2rem;}
+.ticedetail_text{padding: 0.5rem;line-height: 1.1rem;color: #888;text-indent: 2em;padding-bottom: 2rem;}
+

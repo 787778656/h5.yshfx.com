@@ -1,0 +1,19 @@
+.marketpic_box{padding: 0.5rem;width: 100%;height: 100%;position: fixed;left: 0px;right: 0px;top: 0px;overflow-y: scroll;overflow-x: hidden;}
+.marketpic{margin-top: 0.5rem;}
+.marketpic li{width: 100%;height: 8rem;box-shadow:0 8px 10px #ccc;position: relative;margin-bottom: 0.6rem;border-radius: 7px;overflow: hidden;}
+.marketpic_img{width: 100%;height: 100%;}
+.marketpic_in{width: 92%;height: 2rem;position: absolute;left: 0px;right: 0px;bottom: 0px;z-index: 3;line-height: 2rem;color: #fff;text-align: left;
+    padding: 0px 4%;
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.6) ,  rgba(0,0,0,0));
+}
+.marketpic_more{padding: 0.3rem 0px 1rem;color: #999;height: 1rem;}
+
+/* 图片详情部分 */
+.market_down{padding: 0.5rem;}
+.market_downimg{width: 100%;height: 29.5rem;}
+.market_downimg>img{width: 100%;height: 100%;}
+.market_mark{height: 1rem;color: #999;font-size: 0.65rem;line-height: 1rem;margin: 0.5rem 0px;}
+.market_downsave{width: 100%;height: 2.7rem;position: fixed;left: 0px;right: 0px;bottom: 0px;font-size: 0.8rem;color: #fff;
+    background-color: #611987;border: none;outline: none;}
+.market_downseat{width: 100%;height: 2.7rem;}
+

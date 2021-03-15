@@ -1,0 +1,55 @@
+.cremybanner{width: 100%;height: 7.5rem;color: #fff;background: url(../../assets/images/mine/account_bg1.png) no-repeat center;background-size: cover;}
+.crebannertop{padding: 0.6rem 0.7rem 0.1rem;height: 1.5rem;}
+.crebantop_right{float: right;line-height: 1.5rem;color: #fff;}
+.crebantop_right>img{width: 0.7rem;height: 0.7rem;margin-right: 0.3rem;float: left;margin-top: 0.35rem;}
+.credit{float: left;margin-left: 34%;line-height: 1.5rem;}
+.credit_money{font-size: 2.3rem;margin-bottom: 0.5rem;margin-top: 0.2rem;}
+.credit_box{padding: 0.5rem;}
+.credit_remark{line-height: 1.1rem;color: #666;}
+.credit_menu>a{display: inline-block;width: 48%;background-color: #fff;margin-top: 0.5rem;}
+.credit_menu>a:nth-child(odd){margin-right: 2%;}
+.credit_menu li{padding: 0.7rem 0px 1rem;}
+.credit_icon{width: 1.3rem;height: 1.3rem;}
+.credit_authod{font-weight: bold;margin: 0.3rem 0px;}
+.credit_font1{font-weight: bold;color: #999;}
+.credit_font1>span{color: #611987;}
+.credit_btn{display: inline-block;width: 5rem;height: 1.2rem;border: 1px solid #611987;color: #611987;border-radius: 4px;line-height: 1.2rem;margin-top: 0.9rem;}
+
+.detail-box{border-top: 1px solid #dedfe0;border-bottom: 1px solid #dedfe0;background: #fff;
+    padding: 0.4rem 0.675rem;box-sizing: border-box;margin-top: 0.54rem;}
+.detail-box:last-child{margin-bottom: 0.54rem;}
+.detail-item{overflow: hidden;height: 1.3rem;line-height: 1.3rem;}
+.detail-left,.detail-right{overflow: hidden;}
+.detail-icon{width: 0.9rem;height: 0.9rem;float: left;margin: 0.2rem 0.7rem 0 0;}
+.detail-text{color: #333;float: left;}
+.detail-right.in{color: #017eff;}
+.detail-right.out{color: #ff0000;}
+.detailwrapper{width: 100%;height: 100%;position: fixed;top: 0px;left: 0px;right: 0px;bottom: 0px;overflow-y: scroll;overflow-x: hidden;}
+.load_more{padding: 0.54rem 0;background-color: #fff;color: #999999;}
+
+/* 认证机构页面 */
+.authen_title{background-color: #F7F7F9;height: 2.1rem;line-height: 2.1rem;color: #555;padding: 0px 0.7rem;text-align: left;font-size: 0.75rem;}
+.section{background-color: #fff;border-top: 1px solid #DEDFE0;border-bottom: 1px solid #DEDFE0;
+padding: 0px 0.7rem;font-size: 0.75rem;}
+.bank_namebox{height: 2.3rem;border-bottom: 1px solid #DEDFE0;line-height: 2.3rem;}
+.bank_namebox:last-child{border-bottom: none;}
+.bank_nameleft{width: 27%;float: left;text-align: left;}
+.nameright{width: 68%;float: left;height: 2.3rem;border:none;outline: none;font-size: 0.75rem;}
+.sectionright{float: left;width: 72%;height: 2.3rem;}
+.bank_submit{width: 93%;height: 2.2rem;background-color: #611987;color: white;margin: 0px auto;border:none;border-radius: 6px;font-size: 1rem;
+display: block;position: fixed;bottom: 0.5rem;left: 0px;right: 0px;}
+.authen_icon{width: 0.9rem;height: 0.9rem;float: left;margin-top: 0.55rem;margin-right: 0.5rem}
+
+.idcard_phototext,.card_namebox>div{width: 25%;float: left;text-align: left;}
+.idcard_photobox{height: 8rem;padding-top: 0.4rem;}
+.idcard_photomenu{width: 74%;float: left;}
+.menu_remark{color: #999;text-align: left;}
+.positive_box{width: 100%;height: 4rem;margin-top: 0.6rem;}
+.positive_box>.positive:first-child{margin-right: 5%;}
+.positive{width: 40%;height: 4rem;text-align: center;color: #b6b6bd;position: relative;}
+.positive>div{width: 100%;height: 100%;border:1px solid #E0E1E2;box-sizing: border-box;}
+.positive p{margin-top: 0.4rem;}
+.cardadd{width: 1.2rem;height: 1.2rem;margin-top: 1.1rem;}
+.idcard_pic_front,.idcard_pic_back{width: 100%;height: 100%;position: absolute;left: 0;top: 0;opacity: 0;}
+.idcard_img_front,.idcard_img_back{width: 100%;height: 100%;position: absolute;left: 0;top: 0;}
+

@@ -1,0 +1,4 @@
+.Propaganda{position: relative;}
+.Propaganda>img{width: 100%;float: left;}
+.Propaganda>.click{width: 5.2rem;height: 5.2rem;background: transparent;position: absolute;left: 7.6rem;
+    top: 46.3rem;border-radius: 50%;}

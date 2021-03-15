@@ -1,0 +1,96 @@
+/* 弹窗部分 */
+  .mtbox{background-color: #fff;border-radius: 4px;top: 30%;left: 0px;right: 0px;margin: 0 auto;width: 70%;padding: 1px;position: absolute;}
+  .mtbox2{background-color: #fff;border-radius: 4px;top: 30%;left: 0px;right: 0px;margin: 0 auto;width: 55%;padding: 1px;position: absolute;}
+  .mttitle{width: 100%;height: 2rem;line-height: 2rem;border-bottom: 1px solid #dedfe0;}
+  .mtclose{width: 2rem;height: 2rem;position: absolute;left: 0px;right: 0px;bottom: 30%;margin: 0 auto;}
+  .mtclose2{width: 1.6rem;height: 1.6rem;position: absolute;right: 13%;top: 29%;border-radius: 50%;}
+  .selectmt4item{height: 6.2rem;padding-top: 0.5rem;}
+  .select_confirm{width: 80%;height: 1.7rem;margin-bottom: 0.5rem;border: none;color: #fff;background-color: #611987;border-radius: 4px;font-size: 0.8rem;}
+  .nobind{text-align: center;}
+  .selectul>li{height: 1.2rem;text-align: left;padding-left: 3rem;}
+  .selectulred{width: 0.4rem;height: 0.4rem;float: left;margin-top: 0.15rem;margin-right: 0.5rem;}
+  .mt4_select_icon{width: 0.7rem;height: 0.7rem;margin-left: 0.7rem;float: left;}
+  .mtconmfirm{padding: 0.2rem 0.5rem;line-height: 1.2rem;text-align: left;}
+  .mtfont1{color: #611987;}
+  .mtagreebox{width: 100%;height: 1.2rem;font-size: 0.6rem;}
+  .mtagree{padding: 0.1rem;width: 0.5rem;height: 0.5rem;border: 1px solid #611987;border-radius: 50%;float: left;margin-right: 0.3rem;margin-top: 0.2rem;}
+  .loginbomb{padding: 0.5rem 1rem;width:6rem;background-color: rgba(0, 0, 0, 0.5);color: white;position: fixed;top: 40%;border-radius: 4px;
+    left: 0px;right: 0px;margin: 0 auto;z-index: 11;}
+  .mtboxsucicon{width: 1.7rem;height: 1.7rem;margin: 1rem auto 0.5rem;}
+  .mtboxsuctext{font-size: 0.8rem;color: #666;height: 2.5rem;}
+  /* 主页内容 */
+  .abanner{width: 100%;height: 7rem;color: #fff;background: url(../../assets/images/mine/account_bg1.png) no-repeat center;background-size: cover;}
+  .abannertop{padding: 0.5rem 0.7rem;height: 1.5rem;}
+  .abantop_left{float: left;font-size: 0.7rem;line-height: 1.5rem;}
+  .abantop_left>img{width: 1.5rem;height: 1.5rem;margin-right: 0.5rem;float: left;}
+  .abalance{margin-top: 0.3rem;text-align: center;font-weight: bold;}
+  .amoney{margin-top: 0.1rem;text-align: center;font-size: 1.3rem;font-weight: bold;}
+  .amoney>span{font-size: 1.8rem;}
+  .acctop{height: 1rem;line-height: 1rem;padding: 0.5rem;line-height: 1rem;}
+  .acctop_img{width: 1rem;height: 1rem;margin-right: 0.5rem;float: left;border-radius: 50%;}
+  .acctop_icon{width: 0.6rem;height: 0.6rem;margin-left: 0.5rem;float: right;margin-top: 0.2rem;}
+  .accfont1{color: #999;}
+  .accinfo{padding: 0px 0.5rem 0.5rem;height: 5.3rem;border-top: 1px solid #dedfe0;}
+  .accinfo2{padding: 0px 0rem 0.5rem;height: 5.3rem;}
+  .accinfo2>li,.accinfo>li{float: left;width: 33%;height: 2.5rem;line-height: 1.2rem;margin-top: 0.3rem;}
+  .accfont2{font-weight: bold;font-size: 0.75rem;}
+  .accfont3{font-weight: bold;color: #611987;font-size: 0.75rem;}
+  .accfont4{font-weight: bold;}
+  .accspeed{text-align: right;}
+  .accmam{padding: 0px 0.5rem 0.3rem;}
+  .accprog{width: 100%;height: 0.15rem;background-color: #E0E0E4;margin-top: 0.3rem;overflow: hidden;}
+  .accprog>div{width: 50%;height:100%;background-color: #611987;}
+  .accbottom{border-top: 1px solid #dedfe0;height: 1.8rem;line-height: 2rem;}
+  /* 项目详情 */
+	.amineorder{padding: 0px 0.7rem;background-color: white;margin-top: 0.5rem;border-top: 1px solid #DEDFE0;border-bottom: 1px solid #DEDFE0;}
+	.amineorder a:last-child li{border: none;}
+	.amineorder a li{height: 2rem;border-bottom: 1px solid #DEDFE0;}
+	.aorderleft{float: left;line-height: 2rem;}
+	.aorderleft>img{width: 0.8rem;height: 0.8rem;float: left;margin-top: 0.6rem;margin-right: 0.5rem;}
+	.aorderleft>div{float: left;color: #222;}
+	.aorder_right{float: right;margin-top: 0.3rem;}
+	.aorder_right>img{width: 0.5rem;height: 0.9rem;float: left;margin-left: 0.5rem;margin-top: 0.3rem;}
+	.aorder_righttext{float: left;margin-top: 0.3rem;}
+  .accfixed{width:100%;height:2.5rem;background-color: #fff;position: fixed;bottom: 0px;left: 0px;right: 0px;z-index: 10;border-top: 1px solid #dedfe0;}
+  .accfixed2{width:100%;height:2.5rem;background-color: #CCCCCC;position: fixed;bottom: 0px;left: 0px;right: 0px;z-index: 10;
+  border-top: 1px solid #dedfe0;line-height: 2.5rem;color: #fff;font-size: 0.8rem;}
+  .accfixed_left{width: 45%;height: 100%;text-align: left;float: left;}
+  .accfixed_left>.accfont1{margin-top: 0.3rem;}
+  .accfixed_left>p{text-indent: 1em;}
+  .accfixed_right{background-color: #611987;color: #fff;font-size: 0.8rem;float: left;width: 55%;height: 100%;line-height: 2.5rem;}
+
+/*项目详情部分*/  
+.project_inc{width:100%;height: 1rem;line-height: 1rem;}
+.proinc_icon{width: 1rem;height: 1rem;margin-right: 0.5rem;float: left;}
+.proinc_text{text-align: left;line-height: 1.3rem;margin-top: 0.3rem;}
+.project_week{height: 1rem;line-height: 1rem;padding: 0.8rem 0.5rem;border-bottom: 1px solid #DEDFE0;}
+.proinc_weekbox{width: 100%;height: 4rem;position: relative;}
+.proweek{width: 35%;height: 4rem;position: absolute;top: 0px;left: 0px;}
+.proweek>li{height:2rem;line-height: 1.9rem;border-right: 1px solid #DEDFE0;}
+.proweek>li:nth-child(1){border-bottom: 1px solid #DEDFE0;}
+.proweek_menu{width: 64%;height: 4rem;float: left;overflow-x: scroll;margin-left: 35%;overflow-y: hidden;}
+.proweek_list{width: 28rem;height: 2rem;border-bottom: 1px solid #DEDFE0;}
+.proweek_list>li{width: 4rem;line-height: 1.9rem;float: left;}
+.proweek_list2{width: 28rem;height: 1.9rem;}
+.proweek_list2>li{width: 4rem;line-height: 1.9rem;float: left;}
+.protime{width: 100%;margin: 0.5rem 0px 1rem;}
+.protimage2{width: 100%;margin: 0.5rem 0px 1rem;}
+.proruleimg>img,.protime>img,.protimage2>img{width: 100%;}
+.proruleimg{width: 100%;height: 10rem;margin: 0.5rem 0px 1rem;}
+.profont1{color: #611987;}
+.project_zhuyi{font-weight: bold;text-align: left;margin: 0.5rem 0px;}
+.project_remark>li{margin-bottom: 0.5rem;line-height: 1.3rem;text-align: left;}
+
+/* 服务结算规则 */
+.mamrulebox{background-color: #fff;text-align: left;padding: 0.5rem;color: #666;}
+.mamrule1{margin: 0.5rem 0px;}
+.mamrule2{line-height: 1.4rem;padding-left:0.6rem;}
+
+.acctop_left1,.acctop_left2{width: 50%;}
+.acctop_left1{text-align: left;}
+.acctop_left2{text-align: right;}
+
+
+.prototitle{font-size: 0.8rem;text-align: center;}
+.protorule1{font-size: 0.75rem;}
+.protorule2{line-height: 1.1rem;padding-left:0.6rem;margin-top: 0.4rem;}

@@ -1,0 +1,43 @@
+.mlist{position: relative;padding: 0.55rem 0.55rem 0px;}
+.mlist_user{height: 1.5rem;width: 100%;}
+.mlist_userimg{width: 1.5rem;height: 1.5rem;margin-right: 0.8rem;float: left;}
+.mlist_userimg2{width: 1.5rem;height: 1.5rem;margin-right: 0.8rem;float: left;border-radius: 50%;border: 2px solid #eee;}
+.mlist_username{color: #555;float: left;line-height: 1.5rem;margin-top: 0.1rem;}
+.mproject{height: 3rem;margin-top: 0.5rem;}
+.mproject>li{width: 33%;height: 100%;float: left;}
+.mamfont1{color: #f95d55;font-weight: bold;font-size: 0.9rem;line-height: 1.5rem;}
+.mamfont2{color: #8f9197;}
+.mamfont3{font-weight: bold;font-size: 0.72rem;line-height: 1.4rem;margin-top: 0.1rem;}
+.mamstatu,.mamstatu2{width: 4.5rem;height: 1.4rem;color: #fff;font-weight: bold;text-align: center;border-radius: 50px;line-height: 1.4rem;float: right;
+margin-top: 0.7rem;}
+.mamstatu{background-color: #611987;}
+.mamstatu2{background-color: #ccc;}
+.mamprogress{width: 100%;height: 0.11rem;background-color: #E0E0E4;}
+.mamprogress>div{height: 100%;background-color: #ffcca3;}
+.mprostatu{width: 2.3rem;height: 2.3rem;position:absolute;right: 0px;top: 0px;}
+.mprostatu>img{width: 100%;height: 100%;}
+
+.acctop{height: 1rem;line-height: 1rem;padding: 0.5rem;line-height: 1rem;}
+.acctop_img{width: 1rem;height: 1rem;margin-right: 0.5rem;float: left;border-radius: 50%;}
+.acctop_icon{width: 0.6rem;height: 0.6rem;margin-left: 0.5rem;float: right;margin-top: 0.2rem;}
+.accfont1{color: #999;}
+.accinfo{padding: 0px 0.5rem 0.5rem;height: 5.3rem;border-top: 1px solid #dedfe0;}
+.accinfo2{padding: 0px 0rem 0.5rem;height: 5.3rem;}
+.accinfo2>li,.accinfo>li{float: left;width: 33%;height: 2.5rem;line-height: 1.2rem;margin-top: 0.3rem;}
+.accfont2{font-weight: bold;font-size: 0.75rem;}
+.accfont3{font-weight: bold;color: #611987;font-size: 0.75rem;}
+.accfont4{font-weight: bold;}
+.accspeed{text-align: right;}
+.accmam{padding: 0px 0.5rem 0.3rem;}
+.accprog{width: 100%;height: 0.15rem;background-color: #E0E0E4;margin-top: 0.3rem;}
+.accprog>div{width: 50%;height:100%;background-color: #611987;}
+.accbottom{border-top: 1px solid #dedfe0;height: 1.8rem;line-height: 2rem;}
+.accfixed2{width:100%;height:2.5rem;background-color: #CCCCCC;position: fixed;bottom: 0px;left: 0px;right: 0px;z-index: 10;
+  border-top: 1px solid #dedfe0;line-height: 2.5rem;color: #fff;font-size: 0.8rem;}
+.accfixed_left{width: 45%;height: 100%;text-align: left;float: left;}
+.accfixed_left>.accfont1{margin-top: 0.3rem;}
+.accfixed_left>p{text-indent: 1em;}
+.accfixed_right{background-color: #611987;color: #fff;font-size: 0.8rem;float: left;width: 55%;height: 100%;line-height: 2.5rem;}
+
+.addcharge{width:43%;height:2.43rem;position: fixed;bottom:.54rem;left:5%;background: #ff8a00;font-size: 1rem;color:#fff;text-align: center;line-height: 2.43rem;letter-spacing: .11rem;border-radius: .22rem;}
+.stopmam{width:43%;height:2.43rem;position: fixed;bottom:.54rem;right:5%;background: #fc6d0d;font-size: 1rem;color:#fff;text-align: center;line-height: 2.43rem;letter-spacing: .11rem;border-radius: .22rem;}

@@ -1,0 +1,69 @@
+.mwrapper{width: 100%;height: 75%;position: fixed;top: 5.2rem;left: 0px;right: 0px;overflow-y: scroll;z-index: 10;}
+.masert{width: 100%;position: fixed;left: 0px;top: 0.5rem;background-color: #fff;border-bottom:1px solid #dedfe0;z-index: 11;}
+.maserttop{padding: 0.3rem 0.5rem;}
+.masert_bind{height: 1.7rem;}
+.masert_bindicon{width: 0.4rem;height: 0.4rem;border-radius: 50%;background-color: #FC0F0F;float: left;margin-top: 0.3rem;margin-right: 0.3rem;}
+.masert_sort{border-left: 1px solid #dedfe0;padding: 0 0.5rem;height: 1rem;margin-top: 0.3rem;}
+.sortimg{width: 0.8rem;height: 0.8rem;margin-right: 0.3rem;float: left;margin-top: 0.15rem;}
+.masert_user{border-top: 1px solid #dedfe0;height: 2.2rem;padding-top: 0.3rem;}
+.masert_userbox{background-color: #F4F4F4;width: 69%;height: 100%;border-radius: 4px;float: left;position: relative;text-align: left;line-height: 2.2rem;padding: 0px 3%;}
+.masert_next{width: 23%;height: 100%;border-radius: 50px;float: right;background-color: #611987;color: #fff;font-size: 0.8rem;line-height: 2.2rem;font-weight: bold;}
+.masert_img{width: 1.6rem;height: 1.6rem;margin-top: 0.25rem;position: absolute;border-radius: 50%;background-color: #fff;}
+.masertseat{width: 100%;height: 50rem;}
+.masertmenu{border-top: 1px solid #dedfe0;border-bottom: 1px solid #dedfe0;background-color: #fff;padding: 0.5rem;margin-top: 0.4rem;display: block;}
+.tmenutop{height: 1.7rem;}
+.tmenuhead{width: 1.5rem;height: 1.5rem;margin-right: 0.5rem;float: left;border-radius: 50%;}
+.tmenu_name{line-height: 1.5rem;float: left;width: 4.5rem;text-align: left;}
+.tmenuicon{width: 3.3rem;height: 0.8rem;margin-left: 0.5rem;float: left;margin-top: 0.4rem;}
+.tmenubtn2,.tmenubtn1{width: 3.8rem;height: 1.4rem;border-radius: 50px;line-height: 1.6rem;}
+.tmenubtn1{border: 1px solid #611987;color: #fff;background-color: #611987;}
+.tmenubtn2{border: 1px solid #611987;color: #611987;}
+.tmenubtn3{width: 4.5rem;height: 1.4rem;border-radius: 50px;line-height: 1.6rem;}
+.tmenubtn3{border: 1px solid #999;color: #999;}
+.tmenubtn4{width: 4.5rem;height: 1.8rem;border-radius: 50px;color: #fff;font-size: 0.6rem;background-color: #cccccc;padding-top: 0.1rem;}
+.tmenubtn_img{width:0.8rem;height:0.8rem;margin: 0.3rem 0.5rem 0px 0.8rem;float: left;}
+.tmenubtn_img2{width:0.8rem;height:0.8rem;margin: 0.3rem 0.3rem 0px 0.3rem;float: left;}
+.tmenu_info{width: 100%;height: 2.3rem;margin-top: 0.3rem;}
+.tmenu_info>li{width: 20%;float: left;}
+.tmenu_chart{width: 80%;height: 2rem;margin-top: 0.1rem;border: 1px solid #dedfe0;}
+.tmenu_profit{font-weight: bold;}
+.masterfont1{color: #666;margin-bottom: 0.3rem;}
+.toast{width: 8rem;height: 2.5rem;line-height: 2.5rem;background-color: rgba(0, 0, 0, 0.8);border-radius: 6px;position: fixed;
+top: 40%;left: 0px;right: 0px;margin: 0 auto;color: #fff;z-index: 11;}
+.tmenu_follstatu{width: 0.4rem;height: 0.4rem;margin-right: 0.4rem;margin-top: 0.5rem;float: left;}
+.masert_menu{width: 70%;height: 1.7rem;line-height: 1.5rem;}
+.masert_bindgo{display: block;}
+.tmenu_follpull{width: 0.7rem;height: 0.4rem;float: left;margin-left: 0.5rem;margin-top: 0.6rem;}
+.trheader_follpull{width: 0.7rem;height: 0.4rem;float: left;margin-left: 0.5rem;margin-top: 0.3rem;}
+
+.tradeinfo_wrape{width: 100%;height: 92%;overflow-y: scroll;overflow-x: hidden;position: fixed;top:0px;bottom: 0px;left: 0px;right: 0px;}
+.trheader{padding: 0.5rem;border-bottom: 1px solid #DEDFE0;height: 1rem;line-height: 1rem;display: block;}
+.tradered{width: 0.5rem;height: 0.5rem;float: left;margin-top: 0.15rem;margin-right: 0.5rem;}
+.trheader_text{float: left;}
+.truser{height: 2.5rem;padding: 0.5rem 0.5rem;text-align: left;}
+.truserimg{width: 2.3rem;height: 2.3rem;position: relative;margin-right: 0.5rem;}
+.truserimg_tx{width: 100%;height: 100%;border-radius: 50%;}
+.truserimg_vip{width: 1.5rem;height: 0.7rem;position: absolute;bottom: 0px;right: -0.45rem;}
+.trusername{width: 42%;float: left;font-size: 0.73rem;line-height: 1.3rem;}
+.trinfo{padding: 0.3rem 0.5rem;line-height: 1.2rem;color: #666;}
+.trinfo>li{height: 1.2rem;}
+.trfont1{color: #611987;}
+.trfont2{color: #21a921;}
+.trfont3{color: #007eff;}
+.tricon{width: 1rem;height: 1rem;float: left;margin-right: 0.3rem;margin-top: 0.1rem;}
+.tradenav{width: 100%;height: 2rem;border-top: 1px solid #dedfe0;border-bottom: 1px solid #dedfe0;text-align: center;line-height: 2rem;color: #888;
+background-color: white;margin-top: 0.4rem;}
+.tradenav>li{width: 50%;height: 2rem;float: left;}
+.tradenav>.tactive{color: #611987;border-bottom: 1px solid #611987;}
+.hishold{margin-top: 0.4rem;}
+.nodata{text-align: center;padding:10px 0;width: 3.6rem;}
+
+/* 绑定mt4选择列表 */
+.select_list{background-color: #fff;position: absolute;top: 0px;left: 0px;right: 0px;z-index: 3;}
+.select_list>li{height: 2rem;line-height: 2rem;border-bottom: 1px solid #dedfe0;padding-left: 40%;text-align: left;}
+.select_listicon{width: 0.7rem;height: 0.7rem;margin-left: 0.5rem;}
+.select_listseat{width: 100%;height: 100%;}
+.tradehistorybox_wai{background-color: #fff;border-top: 1px solid #dedfe0;}
+
+.select_sorttext{width: 4rem;float: left;text-align: center;color: #666;}
+.select_sorticon{width: 0.8rem;height: 0.8rem;float: left;margin-top: 0.5rem;}

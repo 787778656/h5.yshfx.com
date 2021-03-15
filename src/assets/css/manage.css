@@ -1,0 +1,45 @@
+.mysbox{height: 1.3rem;line-height: 1.3rem;font-size: 0.75rem;}
+.myslist{height: 1.5rem;border-bottom: 1px solid #dedfe0;line-height: 1.5rem;padding: 0.3rem 0px 0.2rem;}
+.mysswitch{display: block;margin-right: 0.5rem;float: right;color: #999;}
+.mysswitch2{display: block;margin-left: 0.5rem;float: right;color: #999;}
+.mystime{height: 1.6rem;margin-top: 0.3rem;line-height: 1.6rem;}
+.mystime>a{width: 30%;height: 100%;border: 1px solid #611987;color: #611987;margin-right: 3%;border-radius: 6px;display: inline-block;}
+.mystime>a:last-child{margin-right: 0px;}
+.mymanagelist{padding: 0px 0.5rem 0.5rem;display: block;}
+.mymanage_open{margin-top: 0.1rem;}
+.manegerisk{height: 1.6rem;margin-top: 0.3rem;line-height: 1.6rem}
+.manegerisk>li{width: 30%;height: 100%;float: left;border: 1px solid #ccc;color: #ccc;margin-right: 4%;border-radius: 6px;}
+.manegerisk>li:last-child{margin-right: 0px;}
+.managestop{margin: 1rem 0px;}
+
+/* 弹框 */
+.fobombtitle{height: 2rem;line-height: 2rem;border-bottom: 1px solid #dedfe0;}
+.fwcustom{background-color: #fff;width: 14rem;position: absolute;top: 30%;left: 0px;right: 0px;margin: 0 auto;border-radius: 4px;}
+.fwcustom_inp{width: 80%;height: 2rem;font-size: 0.7rem;border: none;outline: none;}
+.fwcustom_btn{border-top: 1px solid #dedfe0;margin-top: 1rem;}
+.fwcustom_btn>button{width: 49%;height: 1.7rem;border: none;outline: none;background-color: #fff;}
+.fwcustom_btn>button:nth-child(2){border-left: 1px solid #dedfe0;color: #611987;}
+
+.creremark{padding: 0.5rem;color: #999;font-size: 0.65rem;}
+.cretip{width: 0.8rem;height: 0.8rem;float: left;margin-top: 0.1rem;margin-right: 0.5rem;}
+.crewatch{float: left;text-align: left;width: 90%;}
+.crbtn{width: 92%;height: 2.2rem;position: fixed;bottom: 0.3rem;left: 0px;right: 0px;margin: 0 auto;background-color: #611987;color: #fff;
+font-size: 1rem;line-height: 2.2rem;border-radius: 4px;border: none;outline: none;}
+
+.masterbomb{padding: 0.5rem 1rem;width:7rem;background-color: rgba(0, 0, 0, 0.5);color: white;position: fixed;top: 40%;border-radius: 4px;
+	left: 0px;right: 0px;margin: 0 auto;z-index: 11;}
+
+/* 追加风险金部分 */
+.addrisk{background-color: #fff;border-top: 1px solid #dedfe0;border-bottom: 1px solid #dedfe0;padding: 0 0.5rem;margin-top: 0.5rem;}
+.addrisk>li{border-bottom: 1px solid #dedfe0;height: 2rem;line-height: 2rem;text-align: left;}
+.addrisk>li:last-child{border: none;}
+.addrisk_text{width: 30%;float: left;}
+.addrisk_center{width: 50%;float: left;}
+.addriskfont1{color: #611987;font-weight: bold;font-size: 0.8rem;}
+.addrisk_inp{width: 65%;float: left;color: #999;}
+.addrisk_inp2{width: 65%;float: left;}
+.addrisk_icon{width: 0.6rem;height: 1rem;float: right;margin-top: 0.5rem;}
+.addrisk_btn{width: 92%;height: 2.2rem;position: fixed;bottom: 0.3rem;left: 0px;right: 0px;margin: 0 auto;background-color: #611987;color: #fff;
+	font-size: 1rem;line-height: 2.2rem;border-radius: 4px;border: none;outline: none;}
+
+

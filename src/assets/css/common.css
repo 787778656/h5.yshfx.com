@@ -1,0 +1,199 @@
+*{padding: 0px;margin: 0px;}
+body{font-family: "微软雅黑";font-size: 0.7rem;color: #333;background-color: #F7F7F9;text-align: left;}
+ul,li{list-style: none;}
+a{font-style: normal;text-decoration: none;color: #333;}
+button{font-size: 0.7rem;}
+input{font-size: 0.7rem;}
+.left{float: left;}
+.right{float: right;}
+.wrapper{width: 100%;height: 86%;position: fixed;top: 2.2rem;left: 0px;right: 0px;overflow-y: scroll;}
+:-moz-placeholder {
+    color: #999;
+}
+::-moz-placeholder {
+    color: #999;
+}
+input:-ms-input-placeholder{
+    color: #999;
+}
+input::-webkit-input-placeholder{
+    color: #999;
+}
+/*多行文本超出隐藏*/
+.mulit{
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  /*单行文本超出隐藏*/
+  .single{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+.seat{width: 100%;height: 3.7rem;}
+.bomb{background-color: rgba(0, 0, 0, 0.5);width: 100%;height: 100%;position: fixed;z-index: 100;top: 0px;right: 0px;bottom: 0px;left: 0px;}
+.bombin{position: relative;width: 100%;height: 100%;}
+.bombdelete{position: absolute;right: -0.5rem;top: -0.8rem;background-color: #fff;border-radius: 50%;width: 1.2rem;height: 1.2rem;}
+.alipay{width: 70%;background-color: #fff;border-radius: 6px;position: absolute;left: 0px;right: 0px;margin: 30% auto 0;padding: 1px;}
+.bombtitle{font-size: 1.1rem;font-weight: bold;line-height: 2.8rem;margin-top: 0.5rem;}
+.alipay_remark{padding: 0px 1rem;text-align: left;line-height: 1.2rem;}
+.bomb_know{width: 100%;height: 2rem;margin-top: 1rem;border-top: 1px solid #DEDFE0;line-height: 2rem;font-size: 0.8rem;color: #DC4537;}
+.ibox{background-color: white;border-bottom:1px solid #dedfe0;border-top:1px solid #dedfe0;margin-top: 0.4rem;}
+.ibox2{background-color: white;border-bottom:1px solid #dedfe0;border-top:1px solid #dedfe0;margin-top: 0.4rem;padding: 0.55rem;}
+
+  /*开关的大小*/
+  .switch-container {
+    height: 20px;
+    width: 40px;
+    float: right;
+  }
+  /*设置checkbox不显示*/
+  .switch {
+    display: none;
+  }
+  /*设置label标签为椭圆状*/
+  label {
+    display: block;
+    background-color: #AAAAAA;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  /*在label标签内容之前添加如下样式，形成一个未选中状态*/
+  label:before {
+    content: '';
+    display: block;
+    border-radius: 25px;
+    height: 100%;
+    width: 20px;
+    background-color: white;
+    opacity: 1;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.08);
+    -webkit-transition: all 0.2s ease;
+  }
+  /*在label标签内容之后添加如下样式，形成一个选中状态*/
+  label:after {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    content: '';
+    display: block;
+    border-radius: 25px;
+    height: 100%;
+    width: 20px;
+    background-color: white;
+    opacity: 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.08);
+    -webkit-transition: all 0.2s ease;
+  }
+  /* ~ 兄弟选择符。
+    p~ul ：位于 p 元素之后的所有 ul 元素
+  */
+  /*选中后，选中样式显示*/
+  #switch:checked~label:after {opacity: 1;}
+  /*选中后，未选中样式消失*/
+  #switch:checked~label:before {opacity: 0;}
+  /*选中后label的背景色改变*/
+  #switch:checked~label {background-color: #611987;}
+
+  /* 详情导航 */
+.detailnav{width: 100%;height: 2rem;border-top: 1px solid #dedfe0;border-bottom: 1px solid #dedfe0;text-align: center;line-height: 2rem;color: #888;
+  background-color: white;position: fixed;top: 0px;left: 0px;z-index: 100;}
+.detailnav li{width: 20%;height: 2rem;float: left;color: #888;} 
+.navseat{width: 100%;height: 2rem;}
+.detailnav .navactive{color: #611987;border-bottom: 1px solid #611987;}
+
+/* 暂无数据 */
+.nodata{width: 4rem;height: 6.5rem;margin: 2rem auto 0px;}
+.createicon{width: 1rem;height: 1rem;float: left;margin-right: 0.5rem;}
+.hope{font-size: 0.8rem;margin-top: 5rem;}
+
+/* 加载中 */
+.loadingbox{width: 100%;height: 2rem;margin-top: 0.5rem;}
+.loadingbox>img{width: 2rem;height: 2rem;}
+
+.weui-switch {
+  display: block;
+  position: relative;
+  width: 52px;
+  height: 24px;
+  border: 1px solid #DFDFDF;
+  outline: 0;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-color: #DFDFDF;
+  transition: background-color 0.1s, border 0.1s;
+  cursor: pointer;
+}
+.weui-switch:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 22px;
+  border-radius: 15px;
+  background-color: #FDFDFD;
+  transition: transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+}
+.weui-switch:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px #611987;
+  transition: transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
+}
+.weui-switch-on {
+  border-color: #611987;
+  background-color: #1AAD19;
+}
+.weui-switch-on:before {
+  border-color: #1AAD19;
+  background-color: #611987;
+}
+.weui-switch-on:after {
+  transform: translateX(28px);
+}
+.weuidiv1{width:100%;height:100%;position:absolute;padding:0 5px;line-height:20px;color:#FFF;user-select:none;}
+.weuidiv2{width:100%;height:100%;position:absolute;padding:0 5px;right:2px;line-height:22px;color:#611987;text-align:right;user-select:none;}
+
+/* 加载动画 */
+.dmyload{width: 100%;height: 1.5rem;padding-top: 0.7rem;position: absolute;top: 30%;left: 0px;right: 0px;margin: 0px auto;}
+.zstartpoint3,.zstartpoint2,.zstartpoint1{
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #ccc;  
+  display: inline-block;
+}
+.zstartpoint2,.zstartpoint1{margin-right: 0.5rem;}
+.zstartpoint1{animation:mypoint1 1s infinite;}
+.zstartpoint2{animation:mypoint2 1s infinite;}
+.zstartpoint3{animation:mypoint3 1s infinite;}
+@keyframes mypoint1{
+  0%{transform:scale(1);}
+  50%{transform:scale(1.5);}
+  100%{transform:scale(1);}
+}
+@keyframes mypoint2{
+  25%{transform:scale(1);}
+  70%{transform:scale(1.5);}
+}
+@keyframes mypoint3{  
+  0%{transform:scale(1.5);}
+  50%{transform:scale(1);}
+  100%{transform:scale(1.5);}
+}
+
+
+

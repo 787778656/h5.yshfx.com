@@ -1,0 +1,89 @@
+/* 自定义弹框 */
+.fwcustom{background-color: #fff;width: 14rem;position: absolute;top: 30%;left: 0px;right: 0px;margin: 0 auto;border-radius: 4px;}
+.fwcustom_inp{width: 80%;height: 2rem;font-size: 0.7rem;border: none;outline: none;}
+.fwcustom_btn{border-top: 1px solid #dedfe0;margin-top: 1rem;}
+.fwcustom_btn>button{width: 49%;height: 1.7rem;border: none;outline: none;background-color: #fff;}
+.fwcustom_btn>button:nth-child(2){border-left: 1px solid #dedfe0;color: #611987;}
+/*  选择mt4 */
+.fselectul{width: 100%;background-color: #fff;position: absolute;top: 0px;right: 0px;left: 0px;z-index: 3;}
+.fselectul>li{height: 1.8rem;text-align: left;padding-left: 30%;line-height: 1.8rem;}
+.fselectulred{width: 0.4rem;height: 0.4rem;float: left;margin-top: 0.6rem;margin-right: 0.5rem;}
+.fmt4_select_icon{width: 0.7rem;height: 0.7rem;margin-left: 0.7rem;float: left;margin-top: 0.45rem;}
+.fselectulbox{width: 100%;height: 100%;position: absolute;z-index: 1;}
+
+.sfixed{background-color: #fff;position: absolute;bottom: 0px;left: 0px;right: 0px;width: 100%;z-index: 3;}
+.sfixedtop{border-bottom: 1px solid #dedfe0;height: 2.2rem;line-height: 2.2rem;padding: 0 0.5rem;color: #999;}
+.sfixedtop_box{margin-left: 20%;}
+.sfixedtop_box>div{float: left;}
+.sfixedtop_weui{margin: 0.5rem 0.5rem 0px;}
+.sfixedlistysh{width: 100%;}
+.sfixedlistysh>li{width:49%;float:left;border-bottom: 1px solid #dedfe0;height: 2rem;line-height: 2rem;}
+.sfixedlist>li{border-bottom: 1px solid #dedfe0;height: 2rem;line-height: 2rem;}
+.sfixedlistysh>li:nth-child(even){width:50%;border-left: 1px solid #dedfe0;}
+.right_sfixedlist{height: 12.3rem;overflow-y: scroll;overflow-x: hidden;}
+.right_sfixedlist2{height: 12.3rem;}
+.right_ysh{width: 0.5rem;}
+.right_ysh2{width: 0.5rem;transform: rotate(180deg);}
+.sfixedbox{width: 100%;height: 80%;position: absolute;top: 0px;left: 0px;right: 0px;}
+.fobomb{width: 70%;background-color: white;position:absolute;top:30%;left:0px;right:0px;margin: 0 auto;border-radius: 4px;}
+.fobombin{width: 100%;height: 100%;position: relative;}
+.fobombtitle{height: 2rem;line-height: 2rem;border-bottom: 1px solid #dedfe0;}
+.borderbombtitle{height: 2rem;line-height: 2rem;border-bottom: 1px solid #dedfe0;font-size: 0.8rem;}
+.fobombnei{text-align: left;line-height: 1.3rem;padding: 0.5rem 0.8rem;}
+.border_bombnei{text-align: left;line-height: 1rem;padding: 0.5rem 0.8rem;color: #999;}
+.border_bombnei2{text-align: center;line-height: 1rem;padding: 0.5rem 0.8rem;color: #999;font-size: 0.9rem;}
+.border_bombnei2_img{width: 3rem;height: 2.3rem;margin-bottom: 0.5rem;}
+.fobomb_remark{height: 1.5rem;padding: 0px 0.8rem 0.5rem;}
+.fobomb_remark>img{width: 0.6rem;height: 0.6rem;padding: 0.1rem;border: 1px solid #611987;border-radius: 50%;float: left;margin-right: 0.2rem;}
+.fobomb_remark>div{float: left;}
+.fobomb_remarkf{color: #611987;}
+.diractive{color: #611987;}
+.dirightactive{color: #611987;background-color: #dedfe0;}
+.fobomb_remarkf3,.fobomb_remarkf2{color: #611987;float: left;}
+.fobombbtn{background-color: #611987;color: #fff;border: none;border-radius: 50px;width: 90%;height: 1.8rem;margin-bottom: 0.7rem;font-size: 0.75rem;}
+.fobomb2{width: 50%;background-color: white;position:absolute;top:35%;left:0px;right:0px;margin: 0 auto;border-radius: 4px;}
+.fobomb2_icon{width: 1.4rem;height: 1.4rem;margin: 0.8rem auto 0.5rem;}
+.fobomb2_text{font-size: 0.8rem;}
+.fobomb2_text2{color: #999;margin-bottom: 1.2rem;}
+.fobomb_con1,.fobomb_con2{width: 3.5rem;height: 1.5rem;border-radius: 4px;margin-top: 0.3rem;margin-bottom: 0.8rem;}
+.fobomb_con1{color: #fff;background-color: #611987;border: 1px solid #611987;margin-right: 0.7rem;}
+.fobomb_con2{border: 1px solid #611987;background-color: #fff;}
+.list_person_country{width: 0.7rem;height: 0.7rem;position: absolute;left: 1.9rem;bottom: 0.1rem;border-radius: 50%;z-index: 3;}
+
+.folbotbtn3,.folbotbtn1,.folbotbtn2{width: 3.8rem;height: 1.6rem;outline: none;border-radius: 50px;margin-left: 0.5rem;}
+.folbotbtn1{border: 1px solid #611987;color: #611987;background-color: #fff;}
+.folbotbtn2{color: #fff;background-color: #611987;border: 1px solid #611987;}
+.folbotbtn3{color: #fff;background-color: #611987;border: 1px solid #611987;}
+.folbotbtn_menu{padding: 0.3rem 0.5rem;border-top: 1px solid #dedfe0;text-align: right;}
+.follbox{padding: 0px 0.5rem;}
+.follboxmt4{border-bottom: 1px solid #dedfe0;width: 100%;height: 1.7rem;padding: 0.1rem 0px;line-height: 1.7rem;display: block;}
+.follstatu{width: 0.4rem;height: 0.4rem;margin-right: 0.4rem;margin-top: 0.6rem;float: left;}
+.frightimg{width: 0.6rem;height: 0.9rem;float: right;margin-top: 0.4rem;}
+.follshi{text-decoration: underline;color: #999;}
+.follmo{font-size: 0.7rem;}
+.follbtn{width: 4rem;height: 90%;float: right;background-color: #611987;color: #fff;border: none;outline: none;border-radius: 50px;margin-top: 0.1rem;}
+.fmenutop{height: 1.5rem;padding: 0.3rem 0.5rem;line-height: 1.5rem;border-bottom: 1px solid #dedfe0;position: relative;}
+.fmenuhead{width: 1.5rem;height: 1.5rem;margin-right: 0.5rem;float: left;border: 1px solid #eee;border-radius: 50%;}
+.fmenu_name{float: left;width: 4.5rem;text-align: left;}
+.fmenuicon{width: 4rem;height: 0.8rem;margin-left: 0.5rem;float: left;margin-top: 0.4rem;}
+.fmenubtn1{color: #017eff;}
+.fnamebox{padding: 0px 0.5rem;margin-top: 0.3rem;}
+.fnamebox>li{width:100%;height: 1.7rem;line-height: 1.7rem;font-size: 0.65rem;}
+.folllock{width: 0.5rem;height: 0.9rem;margin-left: 0.5rem;float: right;margin-top: 0.2rem;}
+.foll_font1{color: #999;}
+.foll_font2{color: #666;}
+.fsele{width: 100%;height: 100%;background-color: rgba(0,0,0,0.5);position: fixed;left: 0px;right: 0px;top: 0px;bottom: 0px;
+z-index: 11;}
+.follswitchbox{width: 10rem;height: 100%;margin: 0px auto;color: #999;}
+.follsele{width: 9rem;height: 100%;text-align:right;}
+.follswitch{margin: 0.7rem 0.5rem 0px;}
+.fobanner{position: fixed;background-color: #F7F7F9;top: 0px;left: 0px;right: 0px;z-index: 8;}
+.fobanner_seat{width: 100%;height: 4.4rem;}
+.foltian{color: #611987;font-size: 0.75rem;}
+.creremark{padding: 0.5rem 0.5rem 2rem;height:3.5rem;color: #999;font-size: 0.65rem;}
+.cretip{width: 0.8rem;height: 0.8rem;float: left;margin-top: 0.1rem;margin-right: 0.5rem;}
+.cretip2{width: 0.8rem;height: 0.8rem;float: left;margin-right: 0.5rem;}
+.crewatch{float: left;text-align: left;width: 90%;}
+.ftoast{width:6rem;line-height: 1.2rem;background-color: rgba(0, 0, 0, 0.8);border-radius: 6px;position: fixed;
+top: 40%;left: 30%;margin: 0 auto;color: #fff;padding: 0.5rem;}
+.masert_bindiconfol{width: 0.4rem;height: 0.4rem;border-radius: 50%;background-color: #FC0F0F;float: left;margin-top: 0.6rem;margin-right: 0.3rem;}
